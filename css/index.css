@@ -1,0 +1,24 @@
+/* Varibles */
+:root {
+    --lobster: "Lobster";
+    --sansSerif: "sans-serif";
+}
+
+
+h1 {
+    font-family: var(--lobster), var(--sansSerif);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 55px;
+}
+
+body {
+    background-image: url("../imgs/Background.png");
+    color: whitesmoke;
+}
+
+#headshot {
+    height: 5%;
+    width: 5%;
+    border-radius: 50%;
+}
